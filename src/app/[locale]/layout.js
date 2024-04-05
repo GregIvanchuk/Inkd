@@ -1,18 +1,19 @@
 import './globals.css'
 import { Inter } from 'next/font/google'
-import {notFound} from 'next/navigation';
-import {unstable_setRequestLocale} from 'next-intl/server';
+import { notFound } from 'next/navigation';
+import { unstable_setRequestLocale } from 'next-intl/server';
+
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata = {
-  title: 'Schlüsselfertiges Haus - Bauexperten',
-  description: 'Entdecken Sie höchste Qualität im Hausbau mit Schlüsselfertiges Haus. Unsere erfahrene Baufirma bietet schlüsselfertige Lösungen für individuelle Wohnträume in Deutschland. Erleben Sie Sorglosigkeit vom Grundstück bis zum schlüsselübergabefertigen Haus.',
-  keywords: 'Renovierung, Hausrenovierung,Innenrenovierung,Außenrenovierung,Sanierung,Modernisierung,Badsanierung,Küchenrenovierung,Dachsanierung,Fassadenrenovierung,Komplettsanierung,Umbauarbeiten,Wohnungsrenovierung,Renovierungskosten,Renovierungsarbeiten,Renovierungsideen,Renovierungsfirma,Renovierungsplan,Renovierungsprojekt,Renovierungsleistungen,Schlüsselfertiges Haus,Hausbau,Baufirma Deutschland,Moderne Hausentwürfe,Schlüsselfertig bauen,Hausplanung,Bauunternehmen,Massivhaus,Energiesparhaus,Architektenhaus,Neubau,Eigenheim,Bauprojekte,Fertighaus,Wohntraum realisieren,Grundstückssuche,Bauexperten,Finanzierung Hausbau,Baugenehmigung,Umweltfreundliches Bauen, Streichen der Wände,Wandbehandlung,Verlegung des Bodens,Fliesen verlegen,Dekoration von Räumlichkeiten,Den Boden verlegen,Ausgezeichnetes Belüftungssystem,Klempnerarbeiten,Bau und Dekoration von Wänden,Einbau von Türen und Türen,Planung von Räumlichkeiten,Auswahl und Installation von Lampen,Raumdekoration,Einbau von Treppen,Installation von Solarpaneelen,Treppe,Solarplatten'
+  title: 'Tattoo Studio - Inkd by Mary Ann',
+  description: 'Discover the highest quality in tattoo artistry at Inkd by Mary Ann. Our experienced studio offers customized tattoo solutions for unique body art in Germany. Experience carefree service from consultation to the final inked masterpiece.',
+  keywords: 'Tattoo, Tattoo Studio, Body Art, Tattoo Artist, Tattoo Design, Tattoo Consultation, Tattoo Parlor, Tattoo Shop, Tattoo Service, Tattooist, Tattooist Germany, Modern Tattoo Designs, Custom Tattoos, Tattoo Planning, Tattoo Projects, Realize Tattoo Dreams, Tattoo Artist Expertise, Tattoo Financing, Tattoo Licensing, Eco-Friendly Tattooing, Skin Art, Permanent Ink, Inked by Mary Ann, Mary Ann Tattoo Studio, Inked Body Art, Tattoo Portfolio, Tattoo Consultation, Tattoo Ideas, Tattoo Styles'
 }
 
 const locales = ['de', 'uk'];
- 
-export default function LocaleLayout({children, params: {locale}}) {
+
+export default function LocaleLayout({ children, params: { locale } }) {
   // Validate that the incoming `locale` parameter is valid
   if (!locales.includes(locale)) notFound();
   unstable_setRequestLocale(locale);
