@@ -39,7 +39,7 @@ export default function Paralaximage({title,button}) {
                        <span className={styles.titleName}> MARRY ANN </span> 
                     </h2>
                     <p className={styles.subTitle}>
-                    — EST'D 2007 —
+                    — ESTD 2007 —
                        
                     </p>
                     <Link className={styles.link} href={`/${locale}/contact`}>
