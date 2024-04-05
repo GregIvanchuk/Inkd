@@ -131,7 +131,7 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
             </h3>
                             <div className={styles.item}>
                                 <label className={styles.label} htmlFor="name">
-                                  {name} <span>{(require)}</span>
+                                  Name <span>(require)</span>
                                 </label>
                                 <input
                                     type="text"
@@ -140,13 +140,13 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                                 />
                                 {errors.name && (
                                     <span style={{ color: "red" }}>
-                                       {error}
+                                       error
                                     </span>
                                 )}
                             </div>
                             <div className={styles.item}>
                                 <label className={styles.label} htmlFor="email">
-                                   {email} <span>{(require)}</span>
+                                   Email <span>(require)</span>
                                 </label>
                                 <input
                                     type="email"
@@ -155,13 +155,13 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                                 />
                                 {errors.email && (
                                     <span style={{ color: "red" }}>
-                                       {error}
+                                       error
                                     </span>
                                 )}
                             </div>
                             <div className={styles.item}>
                                 <label className={styles.label} htmlFor="phone">
-                                  {phone}  <span>{(require)}</span>
+                                  Phone  <span>(require)</span>
                                 </label>
                                 <input
                                     type="phone"
@@ -170,7 +170,7 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                                 />
                                 {errors.phone && (
                                     <span style={{ color: "red" }}>
-                                       {error}
+                                       error
                                     </span>
                                 )}
                             </div>
@@ -179,7 +179,7 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                                     className={styles.label}
                                     htmlFor="letter"
                                 >
-                                   {letter}<span>{(require)}</span>
+                                   Letter <span>(require)</span>
                                 </label>
                                 <textarea
                                     className={styles.textarea}
@@ -191,12 +191,12 @@ function ContactComponent({contacTitle,contacttext1,contacttext2,
                                 />
                                 {errors.letter && (
                                     <span style={{ color: "red" }}>
-                                       {error}
+                                       error
                                     </span>
                                 )}
                             </div>
                             <button className={styles.button} type="submit">
-                               {submit}
+                               Submit
                             </button>
                         </form>
                         </div>

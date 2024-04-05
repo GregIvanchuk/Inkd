@@ -29,8 +29,7 @@ export default function Section1({button,s1title,s1text}) {
             <div className={styles.line}></div>
             <h2 className={styles.mainText}>
                 {/* {s1text} */}
-                lorem ipsum dolar text one step one decision one dream   lorem ipsum dolar text one step one decision one dream 
-                lorem ipsum dolar text one step one decision one dream   lorem ipsum dolar text one step one decision one dream 
+                Welcome to our tattoo studio! We specialize in creating unique and personalized tattoos that reflect your individual style and story. Our talented artists are dedicated to providing you with high-quality artwork in a clean and professional environment. Whether you're looking for bold and vibrant designs or intricate and delicate patterns, we're here to bring your vision to life. Explore our gallery for inspiration or book a consultation to discuss your ideas with our team. Let us help you make your tattoo dreams a reality!
             </h2>
             <Link className={styles.link} href={`/${locale}/about`}>
                 <button className={styles.buttonBlack}>

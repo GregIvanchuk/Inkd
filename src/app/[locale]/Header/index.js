@@ -37,16 +37,16 @@ export default function Header({home,about,projects,contact}) {
               </Link>
                 <div className={open ? styles.menu : styles.menu + " " + styles.active }>
                 <ul onClick={() => openHandler()}  className={styles.menuList}>
-                    <Link  className={styles.link}  href={`/${locale}`}><li onClick={() => setActive(0)} className={ (active === 0) ? styles.menuActive  : styles.menuItem }>{home}</li></Link>
-                    <Link  className={styles.link}  href={`/${locale}/projects`}>  <li onClick={() => setActive(1)}  className={ (active === 1) ? styles.menuActive  : styles.menuItem }>{projects}</li></Link>
-                    <Link  className={styles.link}   href={`/${locale}/about`}> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>{about}</li></Link>
-                    <Link  className={styles.link} href={`/${locale}/contact`}><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>{contact}</li></Link>
+                    <Link  className={styles.link}  href={`/${locale}`}><li onClick={() => setActive(0)} className={ (active === 0) ? styles.menuActive  : styles.menuItem }>HOME</li></Link>
+                    <Link  className={styles.link}  href={`/${locale}/projects`}>  <li onClick={() => setActive(1)}  className={ (active === 1) ? styles.menuActive  : styles.menuItem }>PROJECTS</li></Link>
+                    <Link  className={styles.link}   href={`/${locale}/about`}> <li onClick={() => setActive(2)}  className={ (active === 2) ? styles.menuActive  : styles.menuItem }>ABOUT</li></Link>
+                    <Link  className={styles.link} href={`/${locale}/contact`}><li onClick={() => setActive(3)}  className={ (active === 3) ? styles.menuActive  : styles.menuItem }>CONTACT</li></Link>
                     {/* <div onClick={handleChangeLanguage} className={styles.changeLanguage}>| {selectlang ?  "UK" : "DE"} | </div> */}
 
 
-                 { pathname.includes("uk") ? <Link className={styles.lang}  href={`/de`}>| DE |</Link> : 
+                 {/* { pathname.includes("uk") ? <Link className={styles.lang}  href={`/de`}>| DE |</Link> : 
                     <Link className={styles.lang}  href={`/uk`}>| UK |</Link> 
-                  }
+                  } */}
                 </ul>
                 </div>
       <div onClick={() => openHandler()}  className={ open ? styles.burger :  styles.burger + " " + styles.active}>

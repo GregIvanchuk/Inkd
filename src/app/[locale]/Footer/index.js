@@ -35,7 +35,7 @@ function Footer() {
             INKD BY MARYANN
             </h3>
             <p className={styles.footerDescr}>
-              lorem ipsum dolar text one step one decision one dream   lorem ipsum dolar text one step one decision one dream 
+            Unleash your imagination with Mary Ann Tattoos. Explore the art of self-expression through captivating designs. Experience the journey of transformation with us.
             </p>
             <Link className={styles.link} href={`/${locale}/contact`}>
                 <button className={styles.buttonBlack}>

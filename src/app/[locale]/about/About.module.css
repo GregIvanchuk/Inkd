@@ -87,10 +87,11 @@
     justify-content: center;
     gap: 2.5em;
   }
-  .imgAbout{
+  .imgAbout {
     width: 330px;
     height: auto;
-  }
+    filter: grayscale(100%);
+}
   .cvText1{
     color: grey;
     font-size: 1.4rem;

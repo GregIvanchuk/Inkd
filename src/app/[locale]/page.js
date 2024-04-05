@@ -56,7 +56,14 @@ export default function Home({
                     />
                             <p className={styles.service_description}>
                             {/* {t("s4text1")} */}
-                            Something in the way she moves
+                           
+                 Transform your arm with our Full Sleeve Tattoo
+
+
+
+
+
+
                             </p>
                         </div>
 
@@ -75,7 +82,7 @@ export default function Home({
                     />
                             <p className={styles.service_description}>
                             {/* {t("s4text1")} */}
-                            Something in the way she moves
+                            Restore the beauty of your tattoo with our Tattoo Restoration service
                             </p>
                         </div>
 
@@ -94,7 +101,7 @@ export default function Home({
                     />
                             <p className={styles.service_description}>
                             {/* {t("s4text1")} */}
-                            Something in the way she moves
+                            Unlock your imagination with our Creative Design service.
                             </p>
                         </div>
 
@@ -146,7 +153,7 @@ export default function Home({
                     />
                             <p className={styles.service_description}>
                             {/* {t("s4text6")} */}
-                            Something in the way she moves
+                            Experience expert Body Piercing services with precision and care
                             </p>
                         </div>
                     </div>
@@ -266,40 +273,40 @@ export default function Home({
                 <div className={styles.pricingInner}>
                 <div className={styles.pricingColumn1}>
                 <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
+                <p className={styles.descrPrice} >Small tattoo (palm-size)</p>
                 <p className={styles.Price} >50$</p>
                   </div>
 
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Medium tattoo (forearm or wrist)</p>
+                <p className={styles.Price} >100$</p>
                   </div>
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Large tattoo (shoulder or thigh)</p>
+                <p className={styles.Price} >200$</p>
                   </div>
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Complex tattoo (sleeve)</p>
+                <p className={styles.Price} >30$</p>
                   </div>
 
                    </div>
                    <div className={styles.pricingColumn2}>
                    <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Micro tattoo (line or symbol)</p>
+                <p className={styles.Price} >30$</p>
                   </div>
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Color tattoo</p>
+                <p className={styles.Price} >150$</p>
                   </div>
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Black and white tattoo</p>
+                <p className={styles.Price} >120$</p>
                   </div>
                   <div className={styles.pricingItem}>
-                <p className={styles.descrPrice} >BIG TATTO</p>
-                <p className={styles.Price} >50$</p>
+                <p className={styles.descrPrice} >Restoration of old tattoo</p>
+                <p className={styles.Price} >80$</p>
                   </div>
                 
                 

@@ -6,9 +6,9 @@ import Image from 'next/image';
 function SecondSlider({s5main,s5text1,s5text2,s5text3,s5name1,s5name2,s5name3}) {
      // --------------------------------------------
      const slides2= [
-        {src:"/people2.webp" ,    p :"Iudicem sed iudicem quo commodo si fabulas, possumus instituendarum et cupidatat, fore cernantur ab aute eram. Esse doctrina ex appellat se nulla et ullamco. Arbitror aliqua ipsum nam anim, et labore id fore ex o veniam expetendis o senserit dolore offendit offendit, ne lorem eram quae incididunt, quorum iudicem e velit fugiat ea varias familiaritatem expetendis lorem singulis." ,   name:"Jon",role:"doctor"},
-        {src:"/peple1.webp",  p :"instituendarum et cupidatat, fore cernantur ab aute eram. Esse doctrina ex appellat se Iudicem sed iudicem quo commodo si fabulas, possumus instituendarum et cupidatat, fore cernantur ab aute eram.",    name:"Tom",role:"trener"},
-        {src:"/people3.webp" , p :"instituendarum et cupidatat, fore cernantur ab aute eram. Esse doctrina ex appellat se instituendarum et cupidatat, fore cernantur ab aute eram. Esse doctrina ex appellat se" ,   name:"Frank",role:"builder"},
+        {src:"/people2.webp" ,    p :"Mary Ann turned out to be an amazing tattoo artist! Her creative approach and talent are impressive. I'm pleased with every step of our collaboration, and my tattoo turned out just fantastic!" ,   name:"Jon",role:"doctor"},
+        {src:"/peple1.webp",  p :"Her tattoos are true works of art that stay with you forever. I'm very satisfied with the result!",    name:"Tom",role:"trener"},
+        {src:"/people3.webp" , p :"Mary Ann is an incredible tattoo artist! She did exactly what I dreamed of having and exceeded all my expectations. Her professional approach and attention to detail made the process unforgettable. Thank you!" ,   name:"Frank",role:"builder"},
     ];
       const [currentIndex2,setСurrentIndex2]= React.useState(0);
 
@@ -48,7 +48,7 @@ function SecondSlider({s5main,s5text1,s5text2,s5text3,s5name1,s5name2,s5name3}) 
                     
                     <div  className={styles.slideItem} >
                     <div  className={styles.sliderBottom} >
-                       <Image  height={100} width={100} src={slides2[currentIndex2].src} alt="peple"/> 
+                       {/* <Image  height={100} width={100} src={slides2[currentIndex2].src} alt="peple"/>  */}
                        {/* <p>""</p> */}
                        <div  className={styles.sliderBottomLeft} >
                        <h4>{slides2[currentIndex2].name}</h4>

@@ -30,16 +30,19 @@ function About({
                 <div className={styles.content}>
                 <div className={styles.cv}>
                 <div className={styles.cvLeft}>
-                     <p className={styles.cvText1} >Iudicem sed iudicem quo commodo si fabulas, possumus instituendarum et cupidatat, fore cernantur ab aute eram. Esse doctrina ex appellat se nulla et ullamco. Arbitror aliqua ipsum nam anim, et labore id fore ex o veniam expetendis o senserit dolore offendit offendit, ne lorem eram quae incididunt, quorum iudicem e velit fugiat ea varias familiaritatem expetendis lorem singulis.</p>
-                     <p className={styles.cvTextCitate} >Fore admodum ubi incurreret ab multos est nescius, qui quid dolor esse incurreret et labore id fore ex o veniam expetendis fugiat ea varias...</p>
-                     <p className={styles.cvText1} >udicem labore ullamco e legam ubi singulis, quem hic quibusdam et sint, tamen est o quem possumus, ubi laborum consectetur si ne elit mandaremus sed quo fore mandaremus, de amet illum a arbitror. Est non domesticarum. Ea magna an fore.</p>
+                <p className={styles.cvText1} >My tattoos are a reflection of my soul, where each line holds its significance, and every pattern tells its story. I create tattoos that forever stand as symbols of your uniqueness and individuality.
+</p>
+                    
+                     <p className={styles.cvTextCitate} >Art is the same wind that breathes in the heart of every individual, waiting to be set free and revealed.</p>
+                     <p className={styles.cvText1} >Each client is a unique canvas on which I strive to convey their ideas, emotions, and personality through my art. My goal is to make each tattoo project distinctive and meaningful for the client, allowing them to feel unique and special.</p>
+                    
                     </div>
                     <div className={styles.cvRight}>
                     <Image
                         className={styles.imgAbout}
                         width={500}
                         height={380}
-                        src="/people3.webp"
+                        src="/about.jpg"
                         alt="blackman"
                     />
                     </div>
