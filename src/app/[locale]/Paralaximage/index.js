@@ -43,7 +43,7 @@ export default function Paralaximage({title,button}) {
                        
                     </p>
                     <Link className={styles.link} href={`/${locale}/contact`}>
-                        <button className={styles.button}>{button}</button>
+                        <button className={styles.button}>More detail</button>
                     </Link>
                     </div>
                 </div>

@@ -33,7 +33,7 @@ export default function Section1({button,s1title,s1text}) {
             </h2>
             <Link className={styles.link} href={`/${locale}/about`}>
                 <button className={styles.buttonBlack}>
-                  {button}
+                More detail
                 </button>
             </Link>
         </div>
